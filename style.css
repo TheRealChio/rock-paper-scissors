@@ -1,0 +1,115 @@
+:root {
+    --background: #1d1c22;
+    --text: white;
+    --primary-button: #a198c8;
+    --secondary-button: #494365;
+    --accent: #251e46;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.background {
+    background-color: var(--background);
+    height: 100vh;
+    padding-top: 2em;
+}
+
+h1 {
+    font-size: 6rem;
+    color: var(--text);
+    text-align: center;
+}
+
+h2,
+p,
+span {
+    font-size: 3rem;
+    margin-bottom: 1em;
+    color: var(--text);
+}
+
+button {
+    background-color: var(--primary-button);
+    color: var(--accent);
+    padding: .3em;
+    border-radius: 15px;
+    border: 2px solid var(--accent);
+    font-size: 3rem;
+    color: var(--accent);
+    cursor: pointer;
+}
+
+img {
+    cursor: pointer;
+}
+
+.rounds {
+    margin-inline: auto;
+    width: 40vw;
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    gap: 1em
+}
+
+.scores {
+    margin-top: 2em;
+    margin-inline: auto;
+    width: 40vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10em;
+    text-align: center;
+    background-color: var(--secondary-button);
+    border-radius: 15px;
+}
+
+.score-name {
+    width: 5em;
+}
+
+.player-score {
+    width: 20em;
+}
+
+.computer-score {
+    width: 20em;
+}
+
+.second-part {
+    margin-top: 2em;
+    margin-inline: auto;
+    width: 40vw;
+    height: 40vh;
+    background-color: var(--primary-button);
+    color: var(--accent);
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#paper {
+    margin-inline: 10em;
+}
+
+.computer-choice {
+    margin-top: 10em;
+}

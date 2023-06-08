@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="background">
+      <header>
+        <h1>Rock Paper Scissors</h1>
+      </header>
+
+      <main>
+
+        <section class="rounds">
+          <h2 id="rounds-played-text">
+            Round: 
+          </h2>
+          <span id="rounds-played">1</span>
+        </section>
+
+        
+          <section class="scores">
+            <div class="player-score">
+              <h2>Player</h2>
+              <p id="player-score">0</p>
+            </div>
+            <h2 class="score-name">Score</h2>
+            <div class="computer-score">
+              <h2>Computer</h2>
+              <p id="computer-score">0</p>
+            </div>
+          </section>
+        <div class="second-part">
+          <section class="user-choice">
+            <div class="buttons">
+              <!-- <button id="rock">Rock</button> -->
+              <img src="img/rock.png" alt="rock" id="rock">
+              <!-- <button id="paper">Paper</button> -->
+              <img src="img/paper.png" alt="paper" id="paper">
+              <!-- <button id="scissors">Scissors</button> -->
+              <img src="img/scissors.png" alt="scissors" id="scissors">
+              <br />
+              <button id="play-again">Play Again</button>
+            </div>
+          </section>
+          <section class="computer-choice">
+            <p id="computer-value">Computer choice</p>
+          </section>
+          <section class="result">
+            <p id="final-result">Result</p>
+          </section>
+        </div>
+      </main>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
